@@ -1,0 +1,56 @@
+body {
+	font‑family: Arial, sans‑serif;
+	line‑height: 1.6;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background‑color: #f4f4f4;
+}
+
+.proyectos article {
+    border: 1px solid #ddd;
+    padding: 15px; 
+    margin-bottom: 15px;
+    background: #FDFBF1; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.proyectos img {
+	width: auto;
+	max-width: 500px;
+	height: auto;
+}
+
+.contacto label {
+    display: block; 
+    margin-bottom: 3px;
+}
+
+.contacto form {
+	background: #B9A078;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+
+.contacto input, .contacto textarea {
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+footer {
+	background: #007BFF;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 20px;
+	position: center;
+	bottom: 0;
+	width: 100%;
+}
+@media (max-width: 600px) {
+.proyectos img {
+width: 100%;
+}
+}
