@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AllMusic</title>
+</head>
+<body>
+    <header>
+        <h1>Music Master</h1>
+        <p>Explora nuestros amplio catálago de música y variedad de productos.</p>
+    </header>
+
+    <section class="proyectos">
+    	<h2>Productos destacados</h2>
+    
+    	<article>
+            <h3>Guitarra eléctrica</h3>
+            <p>Perfecta para principiantes. Calidad de sonido y materiales.</p>
+            <img src="https://ortizo.com.co/cdn/shop/files/GE9019_842ec733-a385-49bc-97cf-246aeb2b33ac_960x.jpg?v=1735324046" alt="Guitarra eléctrica">
+   	</article>
+
+        <article>
+            <h3>Estante para vinilos</h3>
+            <p>Un estante para almacenar tus vinilos de manera ordenada.</p>
+            <img src="https://hogari.cl/cdn/shop/files/MUEBLE-PARA-VINILOS-102-LUXE-METAL-BLACK.jpg?v=1693870975&width=1445" alt="Estante para vinilos">
+   	</article>
+
+    	<article>
+            <h3>Sony XM5</h3>
+            <p>Audifonos de excelente calidad para escuchar música.</p>
+            <img src="https://clearbuy-cloud.nyc3.digitaloceanspaces.com/media/5715/Sony-WH-1000XM5.jpg" alt="Audifonos Sony XM5">
+    	</article>
+    </section>
+
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form> 
+    </section>
+    <footer>
+	<p>2025 Music Master. Todos los derechos reservados.</p>
+	<div class="social-media">
+            <a href="https://x.com/jstmeuknow?s=21" target="_blank">X</a> |
+            <a href="https://www.instagram.com/jst._johan/" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
